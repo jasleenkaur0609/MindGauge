@@ -74,7 +74,7 @@ public class VerifyUser extends HttpServlet {
 						+ "Verification Code: " + otp + " \n\n"
 						+ "Please enter this code in the appropriate field on our website to complete the verification process. "
 						+ "If you did not request this verification, please disregard this email. \n"
-						+ "Thank You. \nTakeTest";
+						+ "Thank You. \nMindGauge";
 				
 				SendMail obj = new SendMail();
 				boolean success = obj.send(subject, msg, to);
