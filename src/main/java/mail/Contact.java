@@ -31,7 +31,7 @@ public class Contact extends HttpServlet {
 					+ "Message: " + request.getParameter("text") + "\n\n"
 					+ "Please respond to this inquiry promptly.\n\n"
 					+ "Thank you,\n"
-					+ "Take Test";
+					+ "MindGuage";
 			
 			SendMail obj = new SendMail();
 			boolean success = obj.send(subject, msg, to);
