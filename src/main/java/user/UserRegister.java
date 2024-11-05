@@ -48,7 +48,7 @@ public class UserRegister extends HttpServlet {
 					String subject = "Registeration success!";
 					String to = email;
 					String msg = "Dear ," + name +  ",\n"
-							+ "Thank you for registering with TakeTest! You are now part of our community.";
+							+ "Thank you for registering with MindGauge! You are now part of our community.";
 					SendMail obj = new SendMail();
 					boolean success = obj.send(subject, msg, to);
 					
